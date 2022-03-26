@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto, Avenir, Helvetica, Arial, sans-serif;
+}
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+.listitem {
+	cursor:default;
+  margin-bottom: 8px;
+  margin-left: 0;
+}
+.loader {
+  font-size: 20px;
+  animation: blink 2s linear infinite
+}
+@keyframes blink {
+  0% { color: rgba(255, 0, 0, 1); }
+  50% { color: rgba(255, 0, 0, 0); }
+  100% { color: rgba(255, 0, 0, 1); }
+}
+.hidden {
+  display: none;
+}
